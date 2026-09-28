@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            margin: auto;
+            border: 1px solid #000;
+            width: 500px;
+            height: 500px;
+            text-align: center;
+        }
+        .input_cls{
+            margin-top: 100px;
+        }
+    </style>
+    <script>
+        function replaceText(){
+           let val1=document.querySelector(".input_cls").value;
+           if (val1==""){
+            alert("Please Enter Message");
+            return;
+           }
+           document.querySelector(".h1_cls").innerHTML=val1;
+           
+
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <input class="input_cls" type="text" placeholder="Enter Message">
+        <h1 class="h1_cls">Hi Good Morning..</h1> 
+        <button onclick="replaceText()">Click me</button>
+    </div>
+    
+</body>
+</html>
