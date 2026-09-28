@@ -5,11 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        
+        document.write("<h1>This is my javascript file...</h1>")
+        function showalert(){
+            alert("Hi Good Morning..");
+            document.querySelector(".h1_cls").innerHTML="Hi Good Afternoon..";
+        }
+        function showpara(){
+            document.querySelector(".para").innerHTML="This is my paragraph.. "
+        }
     </script>
 
 </head>
 <body>
-    
+    <h1 class="h1_cls">Hi Good Morning..</h1>
+    <button onclick="showalert()">Click me</button>
+    <p class="para">This is my para..</p>  
+    <button onclick="showpara()">Click me</button>  
 </body>
 </html>
