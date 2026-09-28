@@ -1,0 +1,41 @@
+.myheader{
+    display: flex;
+    height: 20vh;
+    background-color:#b2efff;
+    margin: 10px;
+}
+.myheader .logo{
+    width: 40%;
+    padding:10px;
+}
+.myheader .menu_list{
+    width:60%;
+    text-align: right;
+}
+.myheader .menu_list a{
+    margin-right: 5%;
+    font-size: 20px;
+    text-decoration: none;
+}
+.mysection{
+    display: flex;
+    height: 50vh;
+}
+.mysection .left{
+    padding: 10px;
+    width: 20%;
+    background-color: #b8efb2;
+    margin: 5px;
+}
+.mysection .center{
+    padding: 10px;
+    width: 60%;
+    background-color:rgb(230, 220, 166);
+    margin: 5px;
+}
+.mysection .right{
+    padding: 10px;
+    width: 20%;
+    background-color: rgb(239, 153, 171);
+    margin: 5px;
+}
