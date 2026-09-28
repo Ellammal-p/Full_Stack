@@ -1,0 +1,24 @@
+.my_section{
+    display: flex;
+    flex-direction: row;
+}
+.my_menu{
+    display: flex;
+}
+.my_button{
+    display: none;
+}
+.my_menu .li{
+    width: 5%;
+    list-style-type: none;
+
+}
+.my_section div{
+    width: 100%;
+    border: 1px solid #000;
+}
+@media screen and (max-width:575px) {
+    .my_section{
+        flex-direction: column;
+    }
+}
